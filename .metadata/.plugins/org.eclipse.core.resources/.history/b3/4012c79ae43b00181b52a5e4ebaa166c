@@ -1,0 +1,12 @@
+package com.wd;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class tofindsomething {
+public static void main(String []args) {
+	System.setProperty("webDriver.chrome.driver", "E:\\UPS\\JAR\\gecko\\chromedriver.exe");
+	WebDriver driver=new ChromeDriver();
+	driver.get("https://www.amazon.in/?tag=googinabkkenshoo-21&ascsubtag=50f7088f-e556-4e37-86de-fa515279c8bd&ie=UTF8");
+}
+}
